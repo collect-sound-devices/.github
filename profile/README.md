@@ -1,7 +1,6 @@
 # collect-sound-devices and its applications
 
-The collect-sound-devices bounded context (in terms of DDD) corresponds to the ***Collect Sound Devices*** subdomain. It implements a distributed event-driven subsystem, that
-discovers and observes sound devices on end-point PCs (Windows and Linux) and collects / updates them in a central registry. The ***Collect Sound Devices*** belongs to end-point monitoring system
+The collect-sound-devices bounded context (in terms of DDD) corresponds to the ***Collect Sound Devices*** subdomain. It implements a distributed event-driven subsystem, that discovers and observes sound devices on end-point PCs (Windows and Linux) and collects / updates them in a central registry. The ***Collect Sound Devices*** belongs to end-point monitoring systems.
 
 ## License
 
