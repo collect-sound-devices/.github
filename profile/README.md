@@ -6,7 +6,8 @@ The collect-sound-devices bounded context (in terms of DDD) corresponds to the *
 - *Audio Device Repository Client(React/Next/TS)*, [list-audio-react-app](https://github.com/collect-sound-devices/list-audio-react-app/), deployed on Vercel at https://list-audio-react-app.vercel.app
 - *Windows Sound Engine Module (C++/Go)* and *Windows Sound Scanner (Go)* [win-sound-engine](https://github.com/collect-sound-devices/win-sound-engine) and [win-sound-scanner-go](https://github.com/collect-sound-devices/win-sound-scanner-go)
 - *Linux Sound Scanner (C++)*, [linux-sound-scanner](https://github.com/collect-sound-devices/linux-sound-scanner)
-- Multiplatform microservice *RabbitMQ To RestAPI Forwarder (C#)*, [rmq-to-rest-api-forwarder](https://github.com/collect-sound-devices/rmq-to-rest-api-forwarder)
+- *RabbitMQ To RestAPI Forwarder (C#)*, [rmq-to-rest-api-forwarder](https://github.com/collect-sound-devices/rmq-to-rest-api-forwarder)
+- Alternative *Kafka To RestAPI Forwarder (C#)*, [kafka-to-rest-api-forwarder](https://github.com/collect-sound-devices/kafka-to-rest-api-forwarder)
 
 ## License
 
