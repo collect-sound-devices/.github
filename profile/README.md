@@ -1,6 +1,10 @@
 # collect-sound-devices and its applications
 
-The collect-sound-devices bounded context (in terms of DDD) corresponds to the ***Collect Sound Devices*** subdomain. It corresponds to the current distributed architecture, that discovers and observes sound devices on end-point PCs (Windows and Linux) and collects / updates them in a central registry. The ***Collect Sound Devices*** is a typical end-point monitoring systems
+The ***Collect Sound Devices*** domain (*collect-sound-devices* bundle) is about
+discovering and observing sound devices on end-point PCs (Windows and Linux) and
+collecting / updating them in a central registry.
+
+The ***Collect Sound Devices*** is a typical end-point monitoring systems
 
 - *Device Repository Server (C#)*, [audio-device-repo-server](https://github.com/collect-sound-devices/audio-device-repo-server/).<br>
 - *Audio Device Repository Client(React/Next/TS)*, [list-audio-react-app](https://github.com/collect-sound-devices/list-audio-react-app/), deployed on Vercel at https://list-audio-react-app.vercel.app
