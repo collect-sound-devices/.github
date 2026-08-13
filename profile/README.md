@@ -21,21 +21,27 @@ flowchart BT
 
 classDef dottedBox fill:transparent,fill-opacity:0.55, stroke-dasharray:20 5,stroke-width:2px;
 
-coreAudioApi["Core Audio (Windows) or<br>Pulse Lib (Linux)"]
+coreAudioApi["Core Audio (Windows) or
+Pulse Lib (Linux)"]
 
 subgraph scannerService["win-sound-scanner-go or linux-sound-scanner"]
-    winSoundScannerService["Windows Sound Scanner or<br>LinuxSoundScanner"]
+    winSoundScannerService["Windows Sound Scanner or
+    Linux Sound Scanner"]
 end
 class scannerService dottedBox
 
-subgraph requestQueueMicroservice["rmq-to-rest-api-forwarder or kafka-to-rest-api-forwarder<br>"]
+subgraph requestQueueMicroservice["rmq-to-rest-api-forwarder or kafka-to-rest-api-forwarder
+"]
     requestQueue[("Request Queue")]
-    rabbitMqRestForwarder["To REST API Forwarder<br>(.NET Service)"]
+    rabbitMqRestForwarder["To REST API Forwarder
+    (.NET Service)"]
 end
 class requestQueueMicroservice dottedBox
 
-subgraph repoServer["audio-device-repo-server<br>"]
-  deviceRepositoryApi["Device Repository Server<br>(REST API)"]
+subgraph repoServer["audio-device-repo-server
+"]
+    deviceRepositoryApi["Device Repository Server
+    (REST API)"]
 end
 class repoServer dottedBox
 
