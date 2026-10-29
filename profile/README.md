@@ -1,4 +1,4 @@
-# Collect Sound Devices
+<h1><img src="https://raw.githubusercontent.com/collect-sound-devices/.github/main/pictures/org-logo11.jpg" alt="Collect Sound Devices logo" width="44" height="44" align="center"> &nbsp;Collect Sound Devices</h1>
 
 A distributed, event-driven system that discovers and monitors sound devices on
 end-point PCs (Windows and Linux) and keeps them in a [central registry](https://list-audio-react-app.vercel.app).
